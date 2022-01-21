@@ -1,3 +1,24 @@
 .bg-img{
-    background-image: image();
+    /* background-image: url('./images/my-image.jpg'); */
+    background:  url('./images/anna-kolosyuk-D5nh6mCW52c-unsplash.jpg');
+    background-size: cover;
+    min-height: 100%;
+    background-position: center;
+}
+h1{
+   
+}
+ul>li{
+    display: inline;
+    float: right;
+    margin: 15px;
+    padding: 10px;
+}
+ul{
+    display: inline;
+}
+.logo{
+    display: inline;
+    margin: 15px;
+    padding: 10px;
 }
