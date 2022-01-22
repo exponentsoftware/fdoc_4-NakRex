@@ -1,13 +1,11 @@
 .bg-img{
-    /* background-image: url('./images/my-image.jpg'); */
-    background:  url('./images/anna-kolosyuk-D5nh6mCW52c-unsplash.jpg');
-    background-size: cover;
+    background-image: url('./images/my-image.jpg');
+    background:linear-gradient( rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.4)), url('./images/anna-kolosyuk-D5nh6mCW52c-unsplash.jpg');
+    background-size: cover; 
     min-height: 100%;
     background-position: center;
 }
-h1{
-   
-}
+
 ul>li{
     display: inline;
     float: right;
@@ -16,9 +14,10 @@ ul>li{
     font-size: 1.5rem;
     margin-right: 25px;
 }
+
 ul{
     display: inline;
-    
+
 }
 .logo{
     display: inline;
@@ -30,4 +29,52 @@ img{
 }
  body{
     margin: 0;
+}
+.text-container{
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+}
+.description{
+    font-size: 3.5rem;
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 10px;
+    font-family: 'Teko', sans-serif;
+    color: #fff;
+}
+h1{
+    color: rgb(4, 15, 49);
+}
+/* center form element */
+.form-container{
+    text-align: center;
+    margin-top: 75px;
+    padding-bottom: 135px;
+
+}
+.form-container>form>input{
+    width: 300px;
+    border: 1px solid black;
+    margin-top: 10px;
+    font-size: 1rem;
+    padding: 0.3rem;
+    background-color: transparent;
+}
+.form-container input:focus{
+    outline: none;
+}
+.form-container>form>button{
+   font-size: 1rem;
+   padding: 0.3rem;
+    border: 1px solid black;
+    border-radius: 0 10px 10px 0;
+    background: #d92f19;
+    color: #000;
+    cursor: pointer;
+}
+label{
+    font-size: 1.5rem;
 }
