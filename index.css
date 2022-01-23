@@ -85,6 +85,15 @@ label{
     margin-left: 200px;
     margin-right: 200px;
     text-align: center;
-    margin-top: 75px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.icons-container{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.icons-container>i{
+    font-size: 2.5rem;
+    color: #97e123;
+    margin: 10px;
+    cursor: pointer;
 }
