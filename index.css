@@ -12,19 +12,19 @@ ul>li{
     float: right;
     margin: 10px;
     padding: 15px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-right: 25px;
     margin-top: 20px;
+    cursor: pointer;
+    color: #fff;
 }
 ul>.contact{
-    border: 2px solid beige;
+    border: 2px solid #fff;
     border-radius: 30px;
 }
 
 ul{
     display: inline;
-    color: #1fb5e3;
-
 }
 .logo{
     display: inline;
@@ -85,17 +85,22 @@ h1{
 label{
     font-size: 1.5rem;
 }
+
+/* about me section */
 .aboutme{
     font-size: 1.5rem;
     padding: 10px;
     margin-left: 200px;
     margin-right: 200px;
-    text-align: center;
-   padding-top: 50px;
+    padding-top: 50px;
 }
+
 .icons-container{
     margin-top: 70px;
     margin-bottom: 50px;
+}
+.aboutme-heading, .icons-container{
+text-align: center;
 }
 .icons-container>i{
     font-size: 2.5rem;
@@ -105,6 +110,8 @@ label{
 }
 .aboutme-container{
     background-color: #e3e3e3a1;
+    text-align: justify;
+    
 }
 
 /* project section */
