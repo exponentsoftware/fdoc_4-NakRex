@@ -170,6 +170,7 @@ text-align: center;
     text-align: justify;
     color: #fff;
 }
+/* diff section */
 .diff-container{
     margin-right: 150px;
     margin-left: 150px;
@@ -179,7 +180,7 @@ text-align: center;
     margin-left: 200px;
     margin-right: 200px;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 75px;
     padding-bottom: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -197,4 +198,60 @@ text-align: center;
     font-size: 60px;
     margin: 10px;
     color: #3f1ad5;
+}
+
+/* skill section */
+.skill-section-container{
+    background-color: #3f1ad5;
+    padding-top: 40px;
+}
+
+.skill-heading-description{
+    margin-left: 300px;
+    margin-right:300px;
+}
+.skill-heading{
+    text-align: center;
+}
+.skill-description{
+    text-align: justify;
+}
+.skill-container{
+    margin-left: 150px;
+    margin-right: 150px;
+    padding : 30px;
+}
+.container{
+    background-color: rgb(141, 135, 135);
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.skill{
+    text-align: right;
+    color: #000000;
+}
+.html{
+    width: 90%;
+    background-color: #97e123;
+    border-radius: 30px;
+}
+.css{
+    width: 70%;
+    background-color: #ec2edd;
+    border-radius: 30px;
+}
+.javascript{
+    width: 85%;
+    background-color: rgb(230, 139, 36);
+    border-radius: 30px;
+}
+.java{
+    width: 65%;
+    background-color: #1ddddd;
+    border-radius: 30px;
+}
+.sql{
+    width: 70%;
+    background-color: #269926;
+    border-radius: 30px;
 }
