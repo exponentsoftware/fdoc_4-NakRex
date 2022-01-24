@@ -171,7 +171,30 @@ text-align: center;
     color: #fff;
 }
 .diff-container{
+    margin-right: 150px;
+    margin-left: 150px;
+    background-color: #fff;
+}
+.diff-heading-description{
+    margin-left: 200px;
+    margin-right: 200px;
     text-align: center;
-    background-color: #e3e3e3a1;
-    margin-top: 0;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.diff-icons{
+    display: flex;
+    margin: 25px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.fab, .fas{
+    font-size: 60px;
+    margin: 10px;
+    color: #3f1ad5;
 }
