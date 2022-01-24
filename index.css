@@ -1,3 +1,7 @@
+.heading{
+
+}
+
 .bg-img{
     /* background-image: url('./images/my-image.jpg'); */
     background:linear-gradient( rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url('./images/anna-kolosyuk-D5nh6mCW52c-unsplash.jpg');
@@ -96,7 +100,6 @@ label{
 
 /* about me section */
 .aboutme{
-    font-size: 1.5rem;
     padding: 10px;
     margin-left: 200px;
     margin-right: 200px;
@@ -118,16 +121,17 @@ text-align: center;
 }
 .aboutme-heading{
     color: #3f1ad5;
+    padding-bottom: 30px;
 }
 .aboutme-container{
     background-color: #fff;
     text-align: justify;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* project section */
 .myprojects{
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 10px;
     padding-left: 150px;
     padding-right: 150px;
@@ -135,12 +139,15 @@ text-align: center;
     padding-top: 50px;
     background-color: #3f1ad5;
     padding-bottom: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .project-container{
+    font-size: 1.2rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 50px;
+    
 }
 .project-card{
     width: 300px;
@@ -161,8 +168,10 @@ text-align: center;
     width: 50%;
     font-family: 'Teko', sans-serif;
 }
+.project-heading{
+    color: #fff;
+}
 .project-description{
-    font-size: 1.5rem;
     padding: 10px;
     margin-left: 150px;
     margin-right: 150px;
@@ -175,6 +184,7 @@ text-align: center;
     margin-right: 150px;
     margin-left: 150px;
     background-color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .diff-heading-description{
     margin-left: 200px;
@@ -182,7 +192,6 @@ text-align: center;
     text-align: center;
     padding-top: 75px;
     padding-bottom: 30px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .diff-icons{
     display: flex;
@@ -209,6 +218,8 @@ text-align: center;
 .skill-heading-description{
     margin-left: 300px;
     margin-right:300px;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .skill-heading{
     text-align: center;
@@ -222,9 +233,8 @@ text-align: center;
     padding : 30px;
 }
 .container{
-    background-color: rgb(141, 135, 135);
-    border: 1px solid black;
-    border-radius: 30px;
+    background-color: #ffffff;
+    border-radius: 50px;
 }
 .skill{
     text-align: right;
@@ -233,25 +243,45 @@ text-align: center;
 .html{
     width: 90%;
     background-color: #97e123;
-    border-radius: 30px;
+    border-radius: 50px;
 }
 .css{
     width: 70%;
     background-color: #ec2edd;
-    border-radius: 30px;
+    border-radius: 50px;
 }
 .javascript{
-    width: 85%;
+    width: 90%;
     background-color: rgb(230, 139, 36);
-    border-radius: 30px;
+    border-radius: 50px;
 }
 .java{
-    width: 65%;
+    width: 70%;
     background-color: #1ddddd;
-    border-radius: 30px;
+    border-radius: 50px;
 }
 .sql{
-    width: 70%;
+    width: 80%;
     background-color: #269926;
-    border-radius: 30px;
+    border-radius: 50px;
+}
+.experience-container{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #fff;
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 50px;
+}
+.experience-heading{
+    text-align: center;
+    color: #3f1ad5;
+    padding-top: 50px;
+}
+.experience{
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    margin: 20px;
 }
